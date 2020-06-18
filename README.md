@@ -1,6 +1,7 @@
 # ABAP File Uploader
 
 ## Description
+The ABAP File Uploader is designed to allow an ABAP developer to upload data from a file directly into a target database table in SAP Cloud Platform ABAP Environment instance. This utility expects a json file for the uploaded data with attributes that match the column names in the database table. 
 
 ## Requirements
 Make sure to fulfill the following requirements:
@@ -24,6 +25,11 @@ As a result of the installation procedure above, the ABAP system creates an inac
 To activate all development objects from this sample: 
 1. Click the mass-activation icon (<em>Activate Inactive ABAP Development Objects</em>) in the toolbar.  
 2. In the dialog that appears, select all development objects in the transport request (that you created for the demo content installation) and choose `Activate`.
+3. Once the imported class is activated, you must then manually create an HTTP Service.
+  a.
+  b.
+  c.
+
 
 ## Known Issues
 
