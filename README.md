@@ -14,7 +14,7 @@ Use the abapGit plug-in to install the ABAP Fiel Uploader Examples by executing 
 1. In your ABAP cloud project, create an ABAP package for the demo content to be downloaded (leave the suggested values unchanged when following the steps in the package creation wizard).
 2. To add the <em>abapGit Repositories</em> view to the <em>ABAP</em> perspective, click `Window` > `Show View` > `Other...` from the menu bar and choose `abapGit Repositories`.
 3. In the <em>abapGit Repositories</em> view, click the `+` icon to clone an abapGit repository.
-4. Enter the following URL of this repository: `https://github.com/SAP-samples/abap-oo-basics` and choose <em>Next</em>.
+4. Enter the following URL of this repository: `https://github.com/SAP-samples/abap-file-uploader` and choose <em>Next</em>.
 5. Create a new transport request that you only use for this demo content installation (recommendation) and choose <em>Finish</em> to link the Git repository to your ABAP cloud project. The repository appears in the abapGit Repositories View with status <em>Linked</em>.
 6. Right-click on the new ABAP repository and choose `pull` to start the cloning of the repository contents. Note that this procedure may take a few minutes. 
 8. Once the cloning has finished, the status is set to `Pulled Successfully`. Then refresh your project tree. 
