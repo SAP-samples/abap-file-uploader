@@ -25,10 +25,7 @@ As a result of the installation procedure above, the ABAP system creates an inac
 To activate all development objects from this sample: 
 1. Click the mass-activation icon (<em>Activate Inactive ABAP Development Objects</em>) in the toolbar.  
 2. In the dialog that appears, select all development objects in the transport request (that you created for the demo content installation) and choose `Activate`.
-3. Once the imported class is activated, you must then manually create an HTTP Service.
-  a.
-  b.
-  c.
+3. Once the imported handler class is activated, you must then manually create an HTTP Service and attach this handler class to the service.
 
 
 ## Known Issues
