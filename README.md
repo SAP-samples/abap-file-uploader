@@ -25,7 +25,7 @@ As a result of the installation procedure above, the ABAP system creates an inac
 To activate all development objects from this sample: 
 1. Click the mass-activation icon (<em>Activate Inactive ABAP Development Objects</em>) in the toolbar.  
 2. In the dialog that appears, select all development objects in the transport request (that you created for the demo content installation) and choose <em>Activate</em>.
-3. Once the imported handler class is activated, you must then manually create an HTTP Service and attach this handler class to the service.  Again, make sure the handler class is activated first!!  Then in ADT, right-click on your package and choose `New` > `Other Repository Object`.
+3. Once the imported handler class is activated, you must then manually create an HTTP Service and attach this handler class to the service.  Again, make sure the handler class is activated first!!  Then in ADT, right-click on your package and choose `New` > `Other ABAP Repository Object`.
 <br>![](/images/1.png)
 4. In the dialog, click Connectivity, then choose <em>HTTP Service</em>.  Click <em>Next</em>.
 <br>![](/images/2.png)
