@@ -25,11 +25,14 @@ As a result of the installation procedure above, the ABAP system creates an inac
 To activate all development objects from this sample: 
 1. Click the mass-activation icon (<em>Activate Inactive ABAP Development Objects</em>) in the toolbar.  
 2. In the dialog that appears, select all development objects in the transport request (that you created for the demo content installation) and choose `Activate`.
-3. Once the imported handler class is activated, you must then manually create an HTTP Service and attach this handler class to the service.
-  1. Again, make sure the handler class is activated.  Then in ADT, right-click on your package and choose New->Other Repository
-  2. In the dialog, click Connectivity, then choose HTTP Service.  Click Next.
-  3. Give the name of the HTTP Service as ZABAP_FILE_UPLOADER, the Handler Class should prepopulate with the correct name. Click Next, then Finish.
-  4. After a couple minutes, the HTTP Service should be ready. Click on the URL link in the service to launch the tool.
+3. Once the imported handler class is activated, you must then manually create an HTTP Service and attach this handler class to the service.  Again, make sure the handler class is activated first!!  Then in ADT, right-click on your package and choose <em>New->Other Repository</em>.
+<br>![](/images/1.png)
+4. In the dialog, click Connectivity, then choose <em>HTTP Service</em>.  Click <em>Next</em>.
+<br>![](/images/2.png)
+5. Give the name of the HTTP Service as ZABAP_FILE_UPLOADER, the Handler Class should prepopulate with the correct name. Click <em>Next</em>, then <em>Finish</em>.
+<br>![](/images/3.png)
+6. After a couple minutes, the HTTP Service should be ready. Click on the URL link in the service to launch the tool.
+<br>![](/images/4.png)
 
 
 ## Known Issues
