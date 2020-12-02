@@ -16,7 +16,7 @@ https://blogs.sap.com/2020/05/17/the-rap-generator
 * You have installed the [abapGit](https://github.com/abapGit/eclipse.abapgit.org) plug-in for ADT from the update site `http://eclipse.abapgit.org/updatesite/`.
 
 ## Download and Installation
-Use the abapGit plug-in to install the ABAP Fiel Uploader Examples by executing the following steps:
+Use the abapGit plug-in to install the ABAP File Uploader Examples by executing the following steps:
 1. In your ABAP cloud project, create an ABAP package for the demo content to be downloaded (leave the suggested values unchanged when following the steps in the package creation wizard).
 2. To add the <em>abapGit Repositories</em> view to the <em>ABAP</em> perspective, click `Window` > `Show View` > `Other...` from the menu bar and choose `abapGit Repositories`.
 3. In the <em>abapGit Repositories</em> view, click the `+` icon to clone an abapGit repository.
