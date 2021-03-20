@@ -5,6 +5,8 @@
 ## Description
 The ABAP File Uploader is designed to allow an ABAP developer to upload data from a file directly into a target database table in SAP Cloud Platform ABAP Environment instance. This utility expects a json file for the uploaded data with attributes that match the column names in the database table. 
 
+Vidieo Introduction here: [https://youtu.be/PpXNP3ciGOc](https://youtu.be/PpXNP3ciGOc)
+
 ## Requirements
 Make sure to fulfill the following requirements:
 * You have access to an SAP Cloud Platform ABAP Environment instance (see [here](https://blogs.sap.com/2018/09/04/sap-cloud-platform-abap-environment) for additional information).
